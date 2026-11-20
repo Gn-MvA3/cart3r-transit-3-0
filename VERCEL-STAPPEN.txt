@@ -1,0 +1,11 @@
+CART3R TRANSIT 3.0 OP VERCEL
+
+1. Pak de ZIP uit.
+2. Maak een nieuwe repository op github.com.
+3. Upload de bestanden en mappen UIT de uitgepakte projectmap (package.json moet bovenaan staan).
+4. Ga naar vercel.com/new en kies je GitHub-repository.
+5. Kies Next.js en klik Deploy.
+6. Wacht op het resultaat en open de vercel.app-link op je telefoon.
+
+Bij fouten: kijk in Vercel > Deployments > Build Logs.
+Let op: externe OV-bronnen kunnen HTTP 429 geven. Vercel deelt de ingebouwde cache niet tussen alle instanties.
